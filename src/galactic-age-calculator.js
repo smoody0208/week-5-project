@@ -28,6 +28,7 @@ export class Calculator {
   }
 
   calculateJupiter() {
+    let jupiterAge = Math.round(this.age / this.jupiter);
     return jupiterAge;
   }
 }
