@@ -23,6 +23,7 @@ export class Calculator {
   }
 
   calculateMars() {
+    let marsAge = Math.round(this.age / this.mars);
     return marsAge;
   }
 }
