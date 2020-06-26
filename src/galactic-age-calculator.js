@@ -4,6 +4,7 @@ export class Calculator {
   }
 
   earthAge() {
+    let earthAge = Math.floor(this.age);
     return earthAge;
   }
 }
