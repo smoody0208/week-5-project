@@ -12,12 +12,12 @@ _This app was created to take the users inputted age and return their age in Mer
 
 | Spec | Input | Output |
 | :-------------      | :------------- | :------------- |
-| ** 1. The program will allow the user to enter their age | 26 | --
-| ** 2. The program will return their age in Mercury years. (A Mercury year is .24 Earth years) | 26 | 108 |
-| ** 3. The program will return their age in Venus years. (A Venus year is .62 Earth years.) | 26 | 41 |
-| ** 4. The program will return their age in Mars years. (A Mars year is 1.88 Earth years.)| 26 | 13 |
-| ** 5. The program will return  their age in Jupiter years. (A Jupiter year is 11.86 Earth years.) | 26 | 2 |
-| ** 6. The program will calculate how many remaing years the user has left on each planet. | 26 | Earth: 52, Mercury: 225, Venus: 88, Mars: 28, Jupiter: 4|
+| ** 1. The program will allow the user to enter their age and average lifespan | 100, 78 | -- |
+| ** 2. The program will return their age, average lifespan and amount of years past average lifespan on Earth | 100, 78 | 100, 78, 22 |
+| ** 3. The program will return their age, average lifespan and amount of years past average lifespan in "Mercury years." (A Mercury year is .24 Earth years) | 100, 78 | 417, 327, 90 |
+| ** 4. The program will return their age, average lifespan and amount of years past average lifespan in "Venus years." (A Venus year is .62 Earth years.) | 100, 78 | 161, 127, 34 |
+| ** 5. The program will return their age, average lifespan and amount of years past average lifespan in "Mars years." (A Mars year is 1.88 Earth years.)| 100, 78 | 53, 42, 11 |
+| ** 6. The program will return their age, average lifespan and amount of years past average lifespan in "Jupiter years." (A Jupiter year is 11.86 Earth years.) | 100, 78 | 8, 7, 1 |
 
 ## Setup/Installation Requirements
 
@@ -34,7 +34,7 @@ You may also visit: https://smoody0208.github.io/week-5-project/
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_UI not fully funtional yet._
 
 ## Support and contact details
 
