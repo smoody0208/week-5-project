@@ -39,9 +39,9 @@ export class Calculator {
 
 // Calculates info for Jupiter -----
   calculateJupiter() {
-   this.jupiterAge
-   this.jupiterLife
-   this.jupiterYearsPast
+   this.jupiterAge = Math.round(this.age / this.jupiter);
+   this.jupiterLife = Math.round(this.lifeExpectancy / this.jupiter);
+   this.jupiterYearsPast = Math.round(this.jupiterAge - this.jupiterLife);
   }
 }
 
