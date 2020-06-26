@@ -21,4 +21,8 @@ export class Calculator {
     let venusAge = Math.round(this.age / this.venus);
     return venusAge;
   }
+
+  calculateMars() {
+    return marsAge;
+  }
 }
