@@ -9,6 +9,8 @@ export class Calculator {
   }
 
   calculateMercury() {
+    let mercury = 0.24;
+    let mercuryAge = Math.floor(this.age / mercury);
     return mercuryAge;
   }
 }
