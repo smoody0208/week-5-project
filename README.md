@@ -13,8 +13,8 @@ _This app was created to take the users inputted age and return their age in Mer
 | Spec | Input | Output |
 | :-------------      | :------------- | :------------- |
 | ** 1. The program will allow the user to enter their age | 26 | --
-| ** 2. The program will return their age in Mercury years. (A Mercury year is .24 Earth years) | 26 | 101 |
-| ** 3. The program will return their age in Venus years. (A Venus year is .62 Earth years.) | 26 | 39 |
+| ** 2. The program will return their age in Mercury years. (A Mercury year is .24 Earth years) | 26 | 108 |
+| ** 3. The program will return their age in Venus years. (A Venus year is .62 Earth years.) | 26 | 41 |
 | ** 4. The program will return their age in Mars years. (A Mars year is 1.88 Earth years.)| 26 | 13 |
 | ** 5. The program will return  their age in Jupiter years. (A Jupiter year is 11.86 Earth years.) | 26 | 2 |
 | ** 6. The program will calculate how many remaing years the user has left on each planet. | 26 | Earth: 52, Mercury: 225, Venus: 88, Mars: 28, Jupiter: 4|
