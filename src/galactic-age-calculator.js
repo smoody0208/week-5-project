@@ -15,6 +15,12 @@ export class Calculator {
     this.earthLife = Math.round(this.lifeExpectancy);
     this.earthYearsPast = Math.round(this.age - this.lifeExpectancy);
   }
+
+  calculateMercury() {
+    this.mercuryAge
+    this.mercuryLife
+    this.mercuryYearsPast
+  }
 }  
 
 // // Calculates age on Mercury -----

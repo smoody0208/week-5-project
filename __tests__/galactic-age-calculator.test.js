@@ -4,11 +4,18 @@ describe('Calculator', () => {
   const newAge = new Calculator(100, 78.54);
 
   test('should return users age, life expectancy, and years surpassed average for Earth', () => {
-    newAge.calculateEarth()
+    newAge.calculateEarth();
     expect(newAge.age).toEqual(100);
     expect(newAge.lifeExpectancy).toEqual(78.54);
     expect(newAge.earthYearsPast).toEqual(21);
   });
+
+  test('should return user age, life expectancy, and years surpassed average for Mercury', () => {
+    newAge.calculateMercury();
+    expect(newAge.mercuryAge).toEqual(417);
+    expect(newAge.mercuryYearsLeft).toEqual(-90);
+    expect(newAge.yearsPastMercury).toEqual(90);
+  })
 });
 
 //   test('should return a users age for Earth', () => {
