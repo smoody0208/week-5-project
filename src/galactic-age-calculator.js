@@ -8,16 +8,17 @@ export class Calculator {
   }
 
   calculateEarth() {
-    let earthAge = Math.floor(this.age);
+    let earthAge = Math.round(this.age);
     return earthAge;
   }
 
   calculateMercury() {
-    let mercuryAge = Math.floor(this.age / this.mercury);
+    let mercuryAge = Math.round(this.age / this.mercury);
     return mercuryAge;
   }
 
   calculateVenus() {
+    let venusAge = Math.round(this.age / this.venus);
     return venusAge;
   }
 }
