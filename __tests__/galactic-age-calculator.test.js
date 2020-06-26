@@ -38,4 +38,8 @@ describe('Calculator', () => {
   test('should return a users amount of years left on Venus', () => {
     expect(newAge.venusYearsLeft()).toEqual(85);
   });
+
+  test('should return a users amount of years left on Mars', () => {
+    expect(newAge.marsYearsLeft()).toEqual(28);
+  })
 });
