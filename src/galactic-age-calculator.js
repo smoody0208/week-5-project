@@ -9,52 +9,56 @@ export class Calculator {
   }
 
   calculateEarth() {
-    let earthAge = Math.round(this.age);
-    return earthAge;
+    this.earthAge = Math.round(this.age);
+    return this.earthAge;
   }
 
   calculateMercury() {
-    let mercuryAge = Math.round(this.age / this.mercury);
-    return mercuryAge;
+    this.mercuryAge = Math.round(this.age / this.mercury);
+    return this.mercuryAge;
   }
 
   calculateVenus() {
-    let venusAge = Math.round(this.age / this.venus);
-    return venusAge;
+    this.venusAge = Math.round(this.age / this.venus);
+    return this.venusAge;
   }
 
   calculateMars() {
-    let marsAge = Math.round(this.age / this.mars);
-    return marsAge;
+    this.marsAge = Math.round(this.age / this.mars);
+    return this.marsAge;
   }
 
   calculateJupiter() {
-    let jupiterAge = Math.round(this.age / this.jupiter);
-    return jupiterAge;
+    this.jupiterAge = Math.round(this.age / this.jupiter);
+    return this.jupiterAge;
   }
 
   yearsLeft() {
-    let earthLife = Math.round(this.averageEarthLife - this.age);
-    return earthLife;
+    this.earthLife = Math.round(this.averageEarthLife - this.age);
+    return this.earthLife;
   }
 
   mercuryYearsLeft() {
-    let mercuryLife = Math.round(this.yearsLeft() / this.mercury);
-    return mercuryLife;
+    this.mercuryLife = Math.round(this.yearsLeft() / this.mercury);
+    return this.mercuryLife;
   }
 
   venusYearsLeft() {
-    let venusLife = Math.round(this.yearsLeft() / this.venus);
-    return venusLife;
+     this.venusLife = Math.round(this.yearsLeft() / this.venus);
+    return this.venusLife;
   }
 
   marsYearsLeft() {
-    let marsLife = Math.round(this.yearsLeft() / this.mars);
-    return marsLife;
+    this.marsLife = Math.round(this.yearsLeft() / this.mars);
+    return this.marsLife;
   }
 
   jupiterYearsLeft() {
-    let jupiterLife = Math.round(this.yearsLeft() / this.jupiter);
-    return jupiterLife;
+    this.jupiterLife = Math.round(this.yearsLeft() / this.jupiter);
+    return this.jupiterLife;
+  }
+
+  yearsSurpassed() {
+    return this.earthYearsPast;
   }
 }

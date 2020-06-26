@@ -46,4 +46,9 @@ describe('Calculator', () => {
   test('should return a users amount of years left on Jupiter', () => {
     expect(newAge.jupiterYearsLeft()).toEqual(4);
   });
+
+  test('should return the amount of years the user has surpassed the average life expectancy', () => {
+    const newAge2 = new Calculator(80);
+    expect(newAge2.eathYearsPast).toEqual(1);
+  })
 });
