@@ -23,10 +23,21 @@ describe('Calculator', () => {
     const newAge = new Calculator(100, 78.54);
     newAge.calculateMercury();
     newAge.calculateEarth();
-    newAge.calculateVenus()
+    newAge.calculateVenus();
     expect(newAge.venusAge).toEqual(161);
     expect(newAge.venusLife).toEqual(127);
     expect(newAge.venusYearsPast).toEqual(34);
+  })
+
+  test('should return user age, life expectancy, and years surpassed average for Mars', () => {
+    const newAge = new Calculator(100, 78.54);
+    newAge.calculateMercury();
+    newAge.calculateEarth();
+    newAge.calculateVenus();
+    newAge.calculateMars();
+    expect(newAge.marsAge).toEqual(53);
+    expect(newAge.marsLife).toEqual(42);
+    expect(newAge.marsYearsPast).toEqual(11);
   })
 });
 
