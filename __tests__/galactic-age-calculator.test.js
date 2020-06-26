@@ -11,10 +11,12 @@ describe('Calculator', () => {
   });
 
   test('should return user age, life expectancy, and years surpassed average for Mercury', () => {
+    const newAge = new Calculator(100, 78.54);
     newAge.calculateMercury();
+    newAge.calculateEarth();
     expect(newAge.mercuryAge).toEqual(417);
-    expect(newAge.mercuryYearsLeft).toEqual(-90);
-    expect(newAge.yearsPastMercury).toEqual(90);
+    expect(newAge.mercuryLife).toEqual(327);
+    expect(newAge.mercuryYearsPast).toEqual(90);
   })
 });
 

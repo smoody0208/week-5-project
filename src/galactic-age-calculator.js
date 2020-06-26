@@ -17,9 +17,9 @@ export class Calculator {
   }
 
   calculateMercury() {
-    this.mercuryAge
-    this.mercuryLife
-    this.mercuryYearsPast
+    this.mercuryAge = Math.round(this.age / this.mercury);
+    this.mercuryLife = Math.round(this.lifeExpectancy / this.mercury);
+    this.mercuryYearsPast = Math.round(this.mercuryAge - this.mercuryLife);
   }
 }  
 
