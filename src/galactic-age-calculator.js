@@ -49,6 +49,7 @@ export class Calculator {
   }
 
   marsYearsLeft() {
+    let marsLife = Math.round(this.yearsLeft() / this.mars);
     return marsLife;
   }
 }
