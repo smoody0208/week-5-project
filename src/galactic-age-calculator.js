@@ -52,4 +52,8 @@ export class Calculator {
     let marsLife = Math.round(this.yearsLeft() / this.mars);
     return marsLife;
   }
+
+  jupiterYearsLeft() {
+    return jupiterLife;
+  }
 }

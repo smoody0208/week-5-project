@@ -41,5 +41,9 @@ describe('Calculator', () => {
 
   test('should return a users amount of years left on Mars', () => {
     expect(newAge.marsYearsLeft()).toEqual(28);
-  })
+  });
+
+  test('should return a users amount of years left on Jupiter', () => {
+    expect(newAge.jupiterYearsLeft()).toEqual(4);
+  });
 });
