@@ -1,4 +1,4 @@
-import { Calculator } from './../src/galctic-age-calculator.js';
+import { Calculator } from './../src/galactic-age-calculator.js';
 
 describe('Calculator', () => {
 
