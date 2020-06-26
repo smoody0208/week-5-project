@@ -39,6 +39,7 @@ export class Calculator {
   }
 
   mercuryYearsLeft() {
+    let mercuryLife = Math.round(this.yearsLeft() / this.mercury);
     return mercuryLife;
   }
 }
