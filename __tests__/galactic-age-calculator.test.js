@@ -39,6 +39,18 @@ describe('Calculator', () => {
     expect(newAge.marsLife).toEqual(42);
     expect(newAge.marsYearsPast).toEqual(11);
   })
+
+  test('should return user age, life expectancy, and years surpassed average for Jupiter', () => {
+    const newAge = new Calculator(100, 78.54);
+    newAge.calculateMercury();
+    newAge.calculateEarth();
+    newAge.calculateVenus();
+    newAge.calculateMars();
+    newAge.calculateJupiter();
+    expect(newAge.jupiterAge).toEqual(8);
+    expect(newAge.jupiterLife).toEqual(7);
+    expect(newAge.jupiterYearsPast).toEqual(1);
+  })
 });
 
 

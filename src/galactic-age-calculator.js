@@ -23,7 +23,7 @@ export class Calculator {
     this.mercuryYearsPast = Math.round(this.mercuryAge - this.mercuryLife);
   }
 
-// Calculates info for Mercury -----
+// Calculates info for Venus -----
   calculateVenus() {
     this.venusAge = Math.round(this.age / this.venus);
     this.venusLife = Math.round(this.lifeExpectancy / this.venus); 
@@ -36,19 +36,14 @@ export class Calculator {
     this.marsLife = Math.round(this.lifeExpectancy / this.mars);
     this.marsYearsPast = Math.round(this.marsAge - this.marsLife);
   }
-}  
 
-// // Calculates age on Mars -----
-//   calculateMars() {
-//     this.marsAge = Math.round(this.age / this.mars);
-//     return this.marsAge;
-//   }
-
-// // Calculates age on Jupiter -----
-//   calculateJupiter() {
-//     this.jupiterAge = Math.round(this.age / this.jupiter);
-//     return this.jupiterAge;
-//   }
+// Calculates info for Jupiter -----
+  calculateJupiter() {
+   this.jupiterAge
+   this.jupiterLife
+   this.jupiterYearsPast
+  }
+}
 
 // // Calculates years left on Earth -----
 //   yearsLeft() {
