@@ -30,4 +30,8 @@ describe('Calculator', () => {
   test('should return a users amount of years left on earth for base', () => {
     expect(newAge.yearsLeft()).toEqual(53);
   })
+
+  test('should return a users amount of years left on Mercury', () => {
+    expect(newAge.mercuryYearsLeft()).toEqual(221);
+  })
 });

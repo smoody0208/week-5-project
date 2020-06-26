@@ -37,4 +37,8 @@ export class Calculator {
     let earthLife = Math.round(this.averageEarthLife - this.age);
     return earthLife;
   }
+
+  mercuryYearsLeft() {
+    return mercuryLife;
+  }
 }
