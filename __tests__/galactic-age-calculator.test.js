@@ -18,7 +18,17 @@ describe('Calculator', () => {
     expect(newAge.mercuryLife).toEqual(327);
     expect(newAge.mercuryYearsPast).toEqual(90);
   })
+
+  test('should return user age, life expectancy, and years surpassed average for Venus', () => {
+    const newAge = new Calculator(100, 78.54);
+    newAge.calculateMercury();
+    newAge.calculateEarth();
+    expect(newAge.mercuryAge).toEqual(161);
+    expect(newAge.mercuryLife).toEqual(127);
+    expect(newAge.mercuryYearsPast).toEqual(34);
+  })
 });
+
 
 //   test('should return a users age for Earth', () => {
 //     expect(newAge.calculateEarth()).toEqual(26); 
