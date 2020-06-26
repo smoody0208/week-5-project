@@ -60,6 +60,6 @@ export class Calculator {
 
   yearsSurpassed() {
     this.earthYearsPast = Math.round(this.age - this.averageEarthLife);
-    return this.earthYearsPast;
+    this.mercuryYearsPast;
   }
 }
