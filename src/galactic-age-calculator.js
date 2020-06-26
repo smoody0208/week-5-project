@@ -34,6 +34,7 @@ export class Calculator {
   }
 
   yearsLeft() {
+    let earthLife = Math.round(this.averageEarthLife - this.age);
     return earthLife;
   }
 }
