@@ -44,6 +44,7 @@ export class Calculator {
   }
 
   venusYearsLeft() {
+    let venusLife = Math.round(this.yearsLeft() / this.venus);
     return venusLife;
   }
 }
