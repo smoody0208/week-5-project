@@ -49,6 +49,7 @@ describe('Calculator', () => {
 
   test('should return the amount of years the user has surpassed the average life expectancy', () => {
     const newAge2 = new Calculator(80);
-    expect(newAge2.eathYearsPast).toEqual(1);
+    newAge2.yearsSurpassed();
+    expect(newAge2.earthYearsPast).toEqual(1);
   })
 });
