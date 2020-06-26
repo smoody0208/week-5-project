@@ -5,6 +5,7 @@ export class Calculator {
     this.venus = 0.62;
     this.mars = 1.88;
     this.jupiter = 11.86;
+    this.averageEarthLife = 78.54;
   }
 
   calculateEarth() {
@@ -30,5 +31,9 @@ export class Calculator {
   calculateJupiter() {
     let jupiterAge = Math.round(this.age / this.jupiter);
     return jupiterAge;
+  }
+
+  yearsLeft() {
+    return earthLife;
   }
 }
