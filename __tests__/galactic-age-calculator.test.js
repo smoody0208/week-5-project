@@ -20,6 +20,10 @@ describe('Calculator', () => {
   });
 
   test('should return a users age for Mars', () => {
-    expect(newAge.calculateMars()).toEqual(14)
+    expect(newAge.calculateMars()).toEqual(14);
+  });
+
+  test('should return a users age for Jupiter', () => {
+    expect(newAge.calculateJupiter()).toEqual(2);
   })
 });

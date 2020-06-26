@@ -26,4 +26,8 @@ export class Calculator {
     let marsAge = Math.round(this.age / this.mars);
     return marsAge;
   }
+
+  calculateJupiter() {
+    return jupiterAge;
+  }
 }
