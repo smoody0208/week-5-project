@@ -3,8 +3,12 @@ export class Calculator {
     this.age = age;
   }
 
-  earthAge() {
+  calculateEarth() {
     let earthAge = Math.floor(this.age);
     return earthAge;
+  }
+
+  calculateMercury() {
+    return mercuryAge;
   }
 }

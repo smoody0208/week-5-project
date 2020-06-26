@@ -8,6 +8,10 @@ describe('Calculator', () => {
   });
 
   test('should return a users age for Earth', () => {
-    expect(newAge.earthAge()).toEqual(26); 
+    expect(newAge.calculateEarth()).toEqual(26); 
+  });
+
+  test('should return a users age for Mercury', () => {
+    expect(newAge.calculateMercury()).toEqual(108);
   })
 });
