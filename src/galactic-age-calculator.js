@@ -2,11 +2,11 @@
 export class Calculator {
   constructor(age, lifeExpectancy) {
     this.age = age;
+    this.lifeExpectancy = lifeExpectancy;
     this.mercury = 0.24;
     this.venus = 0.62;
     this.mars = 1.88;
     this.jupiter = 11.86;
-    this.lifeExpectancy = lifeExpectancy;
   }
 
 // Calculates info for Earth -----
@@ -32,9 +32,9 @@ export class Calculator {
 
 // Calculates info for Mars -----
   calculateMars() {
-    this.marsAge
-    this.marsLife
-    this.marsYearsPast
+    this.marsAge = Math.round(this.age / this.mars);
+    this.marsLife = Math.round(this.lifeExpectancy / this.mars);
+    this.marsYearsPast = Math.round(this.marsAge - this.marsLife);
   }
 }  
 
