@@ -25,9 +25,9 @@ export class Calculator {
 
 // Calculates info for Mercury -----
   calculateVenus() {
-    this.venusAge; 
-    this.venusLife; 
-    this.venusYearsPast;
+    this.venusAge = Math.round(this.age / this.venus);
+    this.venusLife = Math.round(this.lifeExpectancy / this.venus) 
+    this.venusYearsPast = Math.round(this.venusAge - this.venusLife);
   }
 }  
 

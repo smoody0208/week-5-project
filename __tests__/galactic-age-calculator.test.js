@@ -23,9 +23,10 @@ describe('Calculator', () => {
     const newAge = new Calculator(100, 78.54);
     newAge.calculateMercury();
     newAge.calculateEarth();
-    expect(newAge.mercuryAge).toEqual(161);
-    expect(newAge.mercuryLife).toEqual(127);
-    expect(newAge.mercuryYearsPast).toEqual(34);
+    newAge.calculateVenus()
+    expect(newAge.venusAge).toEqual(161);
+    expect(newAge.venusLife).toEqual(127);
+    expect(newAge.venusYearsPast).toEqual(34);
   })
 });
 
