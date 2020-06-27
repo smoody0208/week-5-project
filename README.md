@@ -34,7 +34,7 @@ You may also visit: https://smoody0208.github.io/week-5-project/
 
 ## Known Bugs
 
-_UI not fully funtional yet._
+_No known bugs._
 
 ## Support and contact details
 

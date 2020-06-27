@@ -5,17 +5,21 @@ import './styles.css';
 import { Calculator } from './../src/galactic-age-calculator.js';
 
 $(document).ready(function(){
-  $("#form").submit(function(event) {
+  $("#input").submit(function(event) {
     event.preventDefault();
     let ageInput = parseInt($("input#age").val());
     let lifeInput = parseInt($("input#life").val());
     let newAge = new Calculator(ageInput, lifeInput);
-    console.log(newAge);
-    newAge.calculateMercury();
+    newAge.calculateMercury()
+    console.log(this.earthLife);
     newAge.calculateEarth();
     newAge.calculateVenus();
     newAge.calculateMars();
     newAge.calculateJupiter();
-    $("#resultEarth").html(`Your Age: ${this.earthAge} <br> Average Lifespan: ${this.earthLife} Years Past Average Lifespan: ${this.earthYearsPast}`);
+    $("#resultEarth").html(`Your Age: ${newAge.earthAge} <br> Average Lifespan: ${newAge.earthLife} <br> Years Past Average Lifespan: ${newAge.earthYearsPast}`);
+    $("#resultMercury").html(`Your Age: ${newAge.mercuryAge} <br> Average Lifespan: ${newAge.mercuryLife} <br> Years Past Average Lifespan: ${newAge.mercuryYearsPast}`);
+    $("#resultVenus").html(`Your Age: ${newAge.venusAge} <br> Average Lifespan: ${newAge.venusLife} <br> Years Past Average Lifespan: ${newAge.venusYearsPast}`);
+    $("#resultMars").html(`Your Age: ${newAge.marsAge} <br> Average Lifespan: ${newAge.marsLife} <br> Years Past Average Lifespan: ${newAge.marsYearsPast}`);
+    $("#resultJupiter").html(`Your Age: ${newAge.jupiterAge} <br> Average Lifespan: ${newAge.jupiterLife} <br> Years Past Average Lifespan: ${newAge.jupiterYearsPast}`);
   })
 })
