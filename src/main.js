@@ -10,8 +10,7 @@ $(document).ready(function(){
     let ageInput = parseInt($("input#age").val());
     let lifeInput = parseInt($("input#life").val());
     let newAge = new Calculator(ageInput, lifeInput);
-    newAge.calculateMercury()
-    console.log(this.earthLife);
+    newAge.calculateMercury();
     newAge.calculateEarth();
     newAge.calculateVenus();
     newAge.calculateMars();
