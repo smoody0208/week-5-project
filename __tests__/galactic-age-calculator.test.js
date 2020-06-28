@@ -13,7 +13,6 @@ describe('Calculator', () => {
   test('should return user age, life expectancy, and years surpassed average for Mercury', () => {
     const newAge = new Calculator(100, 78.54);
     newAge.calculateMercury();
-    newAge.calculateEarth();
     expect(newAge.mercuryAge).toEqual(417);
     expect(newAge.mercuryLife).toEqual(327);
     expect(newAge.mercuryYearsPast).toEqual(90);
@@ -21,7 +20,6 @@ describe('Calculator', () => {
 
   test('should return user age, life expectancy, and years surpassed average for Venus', () => {
     const newAge = new Calculator(100, 78.54);
-    newAge.calculateEarth();
     newAge.calculateVenus();
     expect(newAge.venusAge).toEqual(161);
     expect(newAge.venusLife).toEqual(127);
@@ -30,7 +28,6 @@ describe('Calculator', () => {
 
   test('should return user age, life expectancy, and years surpassed average for Mars', () => {
     const newAge = new Calculator(100, 78.54);
-    newAge.calculateEarth();
     newAge.calculateMars();
     expect(newAge.marsAge).toEqual(53);
     expect(newAge.marsLife).toEqual(42);
@@ -39,7 +36,6 @@ describe('Calculator', () => {
 
   test('should return user age, life expectancy, and years surpassed average for Jupiter', () => {
     const newAge = new Calculator(100, 78.54);
-    newAge.calculateEarth();
     newAge.calculateJupiter();
     expect(newAge.jupiterAge).toEqual(8);
     expect(newAge.jupiterLife).toEqual(7);
