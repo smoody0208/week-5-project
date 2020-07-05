@@ -13,11 +13,11 @@ _This app was created to take the users inputted age and return their age in Mer
 | Spec | Input | Output |
 | :-------------      | :------------- | :------------- |
 | ** 1. The program will allow the user to enter their age and average lifespan | 100, 78 | -- |
-| ** 2. The program will return their age, average lifespan and amount of years past average lifespan on Earth | 100, 78 | 100, 78, 22 |
-| ** 3. The program will return their age, average lifespan and amount of years past average lifespan in "Mercury years." (A Mercury year is .24 Earth years) | 100, 78 | 417, 327, 90 |
-| ** 4. The program will return their age, average lifespan and amount of years past average lifespan in "Venus years." (A Venus year is .62 Earth years.) | 100, 78 | 161, 127, 34 |
-| ** 5. The program will return their age, average lifespan and amount of years past average lifespan in "Mars years." (A Mars year is 1.88 Earth years.)| 100, 78 | 53, 42, 11 |
-| ** 6. The program will return their age, average lifespan and amount of years past average lifespan in "Jupiter years." (A Jupiter year is 11.86 Earth years.) | 100, 78 | 8, 7, 1 |
+| ** 2. The program will return their age, average lifespan and amount of years past or left based on the average lifespan on Earth | 100, 78 | 100, 78, 22 |
+| ** 3. The program will return their age, average lifespan and amount of years past or left based on the average lifespan in "Mercury years." (A Mercury year is .24 Earth years) | 100, 78 | 417, 327, 90 |
+| ** 4. The program will return their age, average lifespan and amount of years past or left based on the average lifespan in "Venus years." (A Venus year is .62 Earth years.) | 100, 78 | 161, 127, 34 |
+| ** 5. The program will return their age, average lifespan and amount of years past or left based on the average lifespan in "Mars years." (A Mars year is 1.88 Earth years.)| 100, 78 | 53, 42, 11 |
+| ** 6. The program will return their age, average lifespan and amount of years past or left based on the average lifespan in "Jupiter years." (A Jupiter year is 11.86 Earth years.) | 100, 78 | 8, 7, 1 |
 
 ## Setup/Installation Requirements
 
